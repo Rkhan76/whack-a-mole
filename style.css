@@ -29,4 +29,32 @@ body{
 #board div img{
     height: 100px;
     width: 100px;
+
+     user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
+
+#restart {
+    background-color: lightgreen;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+#restart:hover {
+    background-color: #9acd32; /* Darker shade of light green on hover */
+}
+
+#restart:active {
+    background-color: #7cfc00; /* Brighter shade of light green when clicked */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow when clicked */
+}
+
+
